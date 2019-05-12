@@ -34,6 +34,7 @@ directory. On successful installation, you will see the file:
 permitting-ui-1.0.war.deployed
 ```
  in the jboss-eap-7.2/standalone/deployment directory
+```
 
 ## 3. Run the UI.
 
