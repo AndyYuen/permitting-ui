@@ -55,7 +55,7 @@ Show Task Form to Action
 The parmeters in the forms are described below:
 
 | Parameter | Mandatary | Description |
-| --- | --- |
+| --- | --- | --- |
 | HOA Date | Yes | The date for HOA in format 2019-05-30T12:30:00. The check for whether a representative has been assigned is set at 1 day before the HOA Date. if TEST is specified, the check will be set at 45 seconds from now. |
 | HOA Address | No | Address at which the HOA is to be held. |
 | HOA Representative | No | This will be set within the business process. |
