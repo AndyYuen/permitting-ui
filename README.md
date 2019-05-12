@@ -52,4 +52,22 @@ Show Task List
 Show Task Form to Action
 ![Task Form](images/ui-taskForm.png "Task Form")
 
+The parmeters in the forms are described below:
+
+| Parameter | Mandatary | Description |
+| --- | --- |
+| HOA Date | Yes | The date for HOA in format 2019-05-30T12:30:00. The check for whether a representative has been assigned is set at 1 day before the HOA Date. if TEST is specified, the check will be set at 45 seconds from now. |
+| HOA Address | No | Address at which the HOA is to be held. |
+| HOA Representative | No | This will be set within the business process. |
+| HOA Group | No | the group for the users of this application. Default is "rep". |
+| Application Status | NO | Unused. |
+| Applicant Name | Yes | Name of applicant. |
+| Applicant Email Address | No | Email address of applicant. |
+| Applicant Phone Number | No | Phone number of applicant. |
+| Applicant Address | No | Address of applicant. |
+| HOA Approved | No | This will be set within the business process. |
+| Representative If Unassigned | No | Default is "representative". |
+| Email of Representative If Unassigned | Yes | Email of nominated representative. Otherwise, the email will be sent to me. |
+| Status Check Delay | No | Time between each getPermitRequestStatus check. | 
+
 
