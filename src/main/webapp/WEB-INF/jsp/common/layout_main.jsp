@@ -7,7 +7,7 @@
     <head>
       <title>${title}</title>
       <link rel="stylesheet" type="text/css" href="${contextPath}/css/style.css" />
-      <script src="js/jquery-3.5.0.min.js" type="text/javascript"></script>
+      <script src="js/jquery-3.7.0.slim.min.js" type="text/javascript"></script>
     </head>
 
     <body>
